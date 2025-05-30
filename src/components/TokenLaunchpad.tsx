@@ -23,6 +23,7 @@ const TokenLaunchpad = () => {
 
   const handleSubmit = () => {
     console.log('Form submitted:', formData);
+    console.log("Token launched successfully!");
   };
 
   
@@ -70,7 +71,7 @@ const TokenLaunchpad = () => {
 
       
       <Button
-        onClick={() => console.log('Token launched')}
+        onClick={handleSubmit}
       />
     </div>
   )
