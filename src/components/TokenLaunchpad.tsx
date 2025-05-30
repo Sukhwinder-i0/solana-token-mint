@@ -22,15 +22,15 @@ const TokenLaunchpad = () => {
   };
 
   const handleSubmit = () => {
-    // Here you would typically handle the form submission,
-    // such as sending the data to a backend or blockchain.
     console.log('Form submitted:', formData);
   };
 
+  
+
   return (
-    <div>
-      <h1>Solana Token Launchpad</h1>
-      <p>Welcome to the Solana Token Launchpad. Here you can create and manage your token launches.</p>
+    <div className='max-w-md justify-center items-center rounded-md flex flex-col p-10 bg-[#0f0f0f] text-white'>  
+      <h1 className='text-3xl text-[#6cbcf1] pb-8'>Solana Token Launchpad</h1>
+      <p className='pb-8'>Welcome to the Solana Token Launchpad. Here you can launch your own token.</p>
 
       <InputBox
         name="tokenName"
